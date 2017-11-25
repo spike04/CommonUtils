@@ -25,7 +25,7 @@ repositories {
 
 ```groovy
 dependencies {
-	compile 'com.github.User:Repo:Tag'
+	compile 'com.github.spike04:CommonUtils:0.0.1'
 }
 ```
 
