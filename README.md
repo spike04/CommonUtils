@@ -2,6 +2,33 @@
 
 Android Common Utilities function collections.
 
+### **Requirements**
+
+1. Inside AndroidManifest.xml (IMPORTANT)
+
+```xml
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+```
+
+2. Gradle Dependencies
+
+   build.gradle (root)
+
+```groovy
+repositories {
+  	maven { url 'https://jitpack.io' }
+}
+```
+
+​	build.gradle (app)
+
+```groovy
+dependencies {
+	compile 'com.github.User:Repo:Tag'
+}
+```
+
 ### **Helper Function Lists**
 
 1. Check Network Status (Internet Status):
